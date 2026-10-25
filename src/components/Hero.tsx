@@ -14,8 +14,8 @@ const MARQUEE = [
   'DASHBOARDS',
   'KPI REPORTING',
   'STORYTELLING',
-  'MICROSOFT FABRIC',
-  'EXCEL / VBA',
+  'TABLEAU',
+  'ADVANCED EXCEL',
 ]
 
 function useTypedRole() {

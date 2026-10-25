@@ -6,7 +6,7 @@ import { SKILL_CATS, SKILL_BARS } from '../data/resume'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const TOOLS = ['SQL', 'T-SQL', 'MySQL', 'Python', 'Pandas', 'NumPy', 'Power BI', 'DAX', 'Power Query', 'Tableau', 'Microsoft Fabric', 'Excel', 'VBA', 'Statistics', 'Seaborn', 'Scikit-learn', 'Jupyter', 'Git']
+const TOOLS = ['SQL', 'T-SQL', 'MySQL', 'Python', 'Pandas', 'NumPy', 'Power BI', 'DAX', 'Power Query', 'Tableau', 'Advanced Excel', 'XLOOKUP', 'PivotTables', 'Statistics', 'RFM', 'Cohort Analysis', 'Jupyter', 'Git']
 
 export default function Skills() {
   useEffect(() => {

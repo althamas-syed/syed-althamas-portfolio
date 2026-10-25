@@ -1,7 +1,7 @@
 export const PROFILE = {
   name: 'Syed Althamas',
-  role: 'Data Analyst | Analytics & Insights Associate',
-  location: 'Banaganapalle, Andhra Pradesh, India',
+  role: 'Data Analyst | SQL · Power BI · Python',
+  location: 'Hyderabad, Telangana, India',
   phone: '+91 7207040700',
   email: 'althamassyed@gmail.com',
   linkedin: 'https://www.linkedin.com/in/syed-althamas',
@@ -9,116 +9,100 @@ export const PROFILE = {
   github: 'https://github.com/althamas-syed',
   githubLabel: 'althamas-syed',
   website: 'https://syedalthamas.me',
-  resumePdf: 'https://www.genspark.ai/api/files/s/Ciiiro7W',
+  resumePdf: '/syed-althamas-resume.pdf',
   summary: [
-    'Detail-oriented Data Analyst with hands-on experience in SQL, Python and Power BI — delivering data cleaning, exploratory analysis and dashboards across 180,000+ records for retail, marketing and business-process initiatives.',
-    'I translate business questions into clear, actionable insight — including identifying ₹3.94M in recoverable discount leakage through end-to-end analysis. An MBA in Finance with hands-on exposure to enterprise-scale data warehousing (Microsoft Fabric) and ETL pipelines.',
-    'Experienced in quality assurance, test-case execution and dashboard validation across Agile & Waterfall delivery — now seeking a growth-oriented Analytics & Insights team.',
+    'Data Analyst with 1 year of hands-on experience in SQL, Python and Power BI — from cleaning and validating 182,081 records across seven retail datasets to shipping five-page Power BI dashboards that put revenue, margin and return-rate KPIs on one screen.',
+    'An MBA in Finance (8.11 CGPA) with a B.Com in Computer Applications. Cut manual MIS reporting time by 30% through SQL and Power BI automation, reconciled 16/16 analytical metrics between Python and SQL, and quantified ₹13.94 lakh in approved, matched refunds.',
+    'Open to Data Analyst roles in Hyderabad, Bengaluru and pan-India — available within 15 days.',
   ],
-  languages: ['English', 'Telugu', 'Hindi'],
+  languages: ['English (Professional)', 'Telugu (Native)', 'Hindi (Fluent)'],
 }
 
 export const STATS = [
-  { count: 184, suffix: 'K+', decimals: 0, label: 'Records analyzed' },
-  { count: 3.94, prefix: '₹', suffix: 'M', decimals: 2, label: 'Discount leakage identified' },
-  { count: 197, suffix: 'K', decimals: 0, label: 'Orders processed' },
-  { count: 5, decimals: 0, label: 'Dashboard pages delivered' },
+  { count: 182, suffix: 'K', decimals: 0, label: 'Records analyzed' },
+  { count: 13.94, prefix: '₹', suffix: 'L', decimals: 2, label: 'Refunds quantified' },
+  { count: 16, suffix: '/16', decimals: 0, label: 'Metrics reconciled' },
+  { count: 30, suffix: '%', decimals: 0, label: 'MIS reporting time cut' },
 ]
 
 export const COMPETENCIES = [
   'Data Analysis & Insights',
-  'SQL Querying & Data Wrangling',
+  'SQL Querying & Reporting',
   'EDA & Data Cleaning',
-  'Enterprise Warehousing & ETL',
-  'BI & Data Visualization',
-  'Data Storytelling & KPI Reporting',
-  'QA & Test Case Execution',
-  'Requirement Gathering',
+  'Data Validation & Reconciliation',
+  'Power BI Dashboards & DAX',
+  'MIS Reporting & Automation',
+  'RFM & Cohort Analysis',
+  'Profitability Analysis',
   'Financial Analysis',
-  'Agile & Waterfall Delivery',
+  'Stakeholder Reporting',
 ]
 
 export const WHAT_I_DO = [
   {
     n: '01',
-    title: 'Data Cleaning & EDA',
-    desc: 'Wrangling 180K+ record datasets with Python & SQL — missing values, outliers, feature sanity — before a single chart is drawn.',
+    title: 'Data Cleaning & Validation',
+    desc: 'Profiling 182K+ records with Python and SQL — duplicate keys, unmatched products, date anomalies — with 16/16 analytical metrics reconciled between the two stacks.',
   },
   {
     n: '02',
     title: 'Dashboard Development',
-    desc: '5-page Power BI & Tableau reports with DAX, Power Query and data modeling that answer stakeholder questions at a glance.',
+    desc: 'Five-page Power BI reports with DAX, Power Query and star-schema modeling — $817K revenue, 29.81% margin and 6.68% return rate readable at a glance.',
   },
   {
     n: '03',
-    title: 'Warehousing & ETL',
-    desc: 'Enterprise pipelines on Microsoft Fabric — Lakehouse → Data Warehouse → Semantic Model → DirectLake reports.',
+    title: 'SQL Reporting & Automation',
+    desc: '20+ SQL analyses and Power BI automation that cut manual MIS reporting time by 30% — CTEs, window functions and T-SQL doing the repetitive work.',
   },
   {
     n: '04',
-    title: 'Insights & Storytelling',
-    desc: 'KPI narratives for non-technical audiences — ₹3.94M of recoverable discount leakage found, packaged, and presented.',
+    title: 'Segmentation & Insights',
+    desc: 'RFM reports sorting customers into Champions, Loyal and At-Risk groups, plus cohort retention analysis that turns trends into decisions.',
   },
 ]
 
 export const EXPERIENCE = [
   {
     role: 'Data Analyst Intern',
-    org: 'Intellectra AI Solutions Pvt. Ltd.',
-    period: 'May 11 – May 30, 2026',
+    org: 'Analytics Space LLP, Hyderabad (Remote)',
+    period: 'Oct 2025 – Sep 2026',
     points: [
-      'Delivered the Retail Chain Profit Leakage & Demand Optimization initiative end-to-end with SQL, Python and Power BI — writing queries and wrangling data for reporting and business decisions.',
-      'Designed a relational SQL schema across 6 business tables; used CTE- and window-function-based queries to surface profitability, returns and vendor-delay KPIs.',
-      'Built and validated a 5-page Power BI dashboard (Sales, Customer Behaviour, Profitability, Product, Returns) with data-quality checks and stakeholder reviews.',
+      'Automated retail performance reporting using SQL queries and Power BI dashboards, reducing manual MIS reporting time by 30%.',
+      'Completed 20+ SQL analyses covering revenue trends, customer behavior and cohort retention to surface trends and insights.',
+      'Developed RFM reports segmenting customers into Champions, Loyal and At-Risk groups.',
     ],
   },
   {
     role: 'Data Analyst Intern',
-    org: 'Analytics Space',
-    period: 'Apr 13 – May 2, 2026',
+    org: 'Intellectra AI Solutions Pvt. Ltd. (Remote)',
+    period: 'May 2026',
     points: [
-      'Analyzed client & sales performance for an End-to-End Retail Performance and Behavioral Analytics project — translating stakeholder questions into SQL queries and Power BI visuals.',
-      'Performed data cleaning, cohort retention and revenue-trend analysis across 20+ SQL queries; presented findings as actionable business insights.',
-    ],
-  },
-  {
-    role: 'Digital Marketing Intern',
-    org: 'Braino Vision',
-    period: 'Internship',
-    points: [
-      'Boosted site traffic 30% and social engagement 20% through data-driven SEO & content strategy — direct experience in marketing performance analytics.',
-    ],
-  },
-  {
-    role: 'Assistant Supervisor',
-    org: 'Bajaj Motors',
-    period: 'May 2024 – Jun 2024',
-    points: [
-      'Coordinated cross-functional teams on daily operations, resolved process bottlenecks and reported operational KPIs to management.',
+      'Developed Python (Pandas) and SQL data-cleaning and validation workflows for multi-table retail datasets, checking duplicate keys, inconsistent identifiers, unmatched product records and date anomalies.',
+      'Reconciled 16/16 analytical metrics between Python and SQL and documented data-quality exceptions to improve KPI reporting reliability.',
     ],
   },
 ]
 
 export const SKILL_CATS = [
   {
-    title: 'Programming & Querying',
+    title: 'SQL & Databases',
     icon: '⌘',
-    items: ['SQL — T-SQL, MySQL, SSMS', 'Python — Pandas, NumPy, Matplotlib', 'Seaborn, Scikit-learn', 'Jupyter Notebook'],
+    items: ['SQL Server, MySQL, T-SQL', 'Joins, CTEs, Window Functions', 'Subqueries, Aggregations', 'CASE WHEN logic'],
   },
   {
-    title: 'Visualization & BI',
+    title: 'Python & Analysis',
     icon: '◧',
-    items: ['Power BI — DAX, Power Query, Data Modeling', 'Tableau Desktop', 'KPI Reporting & Dashboards'],
+    items: ['Python — Pandas, NumPy', 'Jupyter Notebook', 'Data Cleaning, Validation, EDA', 'Reconciliation & Root-Cause Analysis'],
   },
   {
-    title: 'Warehousing & ETL',
+    title: 'BI & Visualization',
     icon: '≋',
-    items: ['SQL Server — CTEs, Window Functions, Stored Procedures', 'Microsoft Fabric — Lakehouse, DWH, Pipelines', 'Semantic Model & DirectLake'],
+    items: ['Power BI — DAX, Power Query', 'Tableau', 'Data Modeling, Star Schema', 'KPI Reporting & Dashboards'],
   },
   {
-    title: 'Statistics & Insights',
+    title: 'Excel & Reporting',
     icon: 'σ',
-    items: ['Hypothesis Testing & Probability', 'Correlation & Regression Analysis', 'Descriptive Statistics', 'Business & Financial Analysis'],
+    items: ['Advanced Excel — PivotTables', 'XLOOKUP, VLOOKUP, SUMIFS', 'Conditional Formatting & Charts', 'MIS Reporting & Automation'],
   },
 ]
 
@@ -126,55 +110,43 @@ export const SKILL_BARS = [
   { name: 'SQL', w: 96, level: 'Advanced' },
   { name: 'Python', w: 92, level: 'Advanced' },
   { name: 'Power BI', w: 94, level: 'Advanced' },
-  { name: 'Excel / VBA', w: 92, level: 'Advanced' },
-  { name: 'Tableau', w: 86, level: 'Proficient' },
+  { name: 'Advanced Excel', w: 92, level: 'Advanced' },
+  { name: 'Tableau', w: 84, level: 'Proficient' },
+  { name: 'DAX & Data Modeling', w: 88, level: 'Advanced' },
   { name: 'Statistics', w: 84, level: 'Proficient' },
-  { name: 'Microsoft Fabric', w: 84, level: 'Proficient' },
   { name: 'Data Wrangling / EDA', w: 90, level: 'Advanced' },
 ]
 
 export const PROJECTS = [
   {
     title: 'Retail Chain Profit Leakage & Demand Optimization',
-    tools: ['Python', 'SQL Server', 'Power BI', 'Tableau'],
-    desc: 'End-to-end analytics pipeline on a 184K-row, 7-sheet retail dataset that surfaced recoverable revenue across discount, return and stockout losses — plus K-Means customer cohorts for retention targeting.',
+    tools: ['Python', 'SQL Server', 'T-SQL', 'Validation Gates'],
+    desc: 'A 50-store retail chain was losing profit in places its reports never showed. I profiled 182,081 records across seven datasets, built validation gates for duplicate keys, inconsistent store IDs, unmatched products and vendor-delay errors, and quantified ₹13.94 lakh in approved, matched refunds across 3,899 events. All 16 analytical metrics reconciled between Python and SQL. The findings: monthly margins held stable at 13.5–13.9% (Jan–Jun 2025), with ₹6.47 lakh in deep-discount exposure and a 30.1% vendor SLA breach rate flagged for follow-up.',
     metrics: [
-      { value: '₹3.94M', label: 'Discount leakage' },
-      { value: '₹1.54M', label: 'Return losses' },
-      { value: '₹0.61M', label: 'Stockout losses' },
+      { value: '₹13.94L', label: 'Refunds quantified' },
+      { value: '182,081', label: 'Records profiled' },
+      { value: '16/16', label: 'Metrics reconciled' },
     ],
-    bars: [92, 61, 38, 71, 88, 54, 66, 97],
-    tag: 'Headline metrics',
+    bars: [88, 62, 74, 91, 57, 83, 69, 95],
+    tag: 'Profit leakage audit · 50 stores · 7 datasets',
   },
   {
-    title: 'Swiggy Food Delivery Analytics',
-    tools: ['SQL', 'Microsoft Fabric', 'Power BI'],
-    desc: 'Architected a complete Fabric data-warehouse pipeline — Lakehouse → Data Warehouse → Semantic Model → DirectLake Power BI report — analyzing ₹53M sales across 197K orders and 15 states.',
-    metrics: [
-      { value: '₹53M', label: 'Sales analyzed' },
-      { value: '197K', label: 'Orders' },
-      { value: '15', label: 'States' },
-    ],
-    bars: [78, 64, 90, 45, 82, 70, 58, 85],
-    tag: 'Data warehousing',
-  },
-  {
-    title: 'Retail Performance & Customer Analytics — RetailNova',
+    title: 'RetailNova — Retail Performance & Behavioral Analytics',
     tools: ['Python', 'SQL Server', 'Power BI'],
-    desc: 'Delivered an interactive 5-page Power BI report with RFM customer segmentation and store-level KPIs — scored 8.3/10 in structured project evaluation.',
+    desc: 'Five raw retail tables became a five-page Power BI dashboard. I cleaned sales, customer, product, store and returns data in pandas, loaded it into SQL Server, and answered ten business questions in T-SQL with joins, CTEs and window functions. The dashboard tracks $817K in revenue at a 29.81% gross margin and a 6.68% return rate, with defective and wrong-item returns named as the top drivers. I also caught a data bug — 59 in-store orders mislabeled with an ONLINE store ID — documented it, and kept those rows out of store-level conclusions.',
     metrics: [
-      { value: '8.3/10', label: 'Evaluation score' },
-      { value: '5-page', label: 'Power BI report' },
-      { value: 'RFM', label: 'Segmentation' },
+      { value: '$817K', label: 'Revenue tracked' },
+      { value: '29.81%', label: 'Gross margin' },
+      { value: '6.68%', label: 'Return rate' },
     ],
-    bars: [64, 82, 55, 74, 91, 62, 79, 88],
-    tag: 'Retail analytics',
+    bars: [72, 85, 60, 92, 68, 78, 88, 64],
+    tag: 'Capstone · 5 tables · 10 business questions',
   },
 ]
 
 export const EDU = [
   {
-    degree: 'MBA — Finance',
+    degree: 'MBA — Finance · CGPA 8.11',
     school: 'Santhiram Engineering College, Nandyal',
     period: '2023 – 2025',
   },
@@ -187,41 +159,25 @@ export const EDU = [
 
 export const CERTS = [
   {
-    group: 'Data Analytics',
+    group: 'Certifications',
     badge: '01',
     items: [
-      'Diploma in Data Analytics with Generative AI — ExcellenC × Texas Tech University (Jun 2026)',
-      'Power BI Data Analyst — Microsoft Learn (2026)',
-      'Data Analyst Skill Certification — OneRoadmap (Jun 2026)',
-      'Complete Data Analyst Bootcamp — Udemy (2026)',
-      'SQL (Intermediate) — HackerRank (Mar 2026)',
-      'Intermediate Python — DataCamp (Jun 2026)',
-      'Intro to SQL & Pandas — Kaggle (2026)',
+      'SQL (Intermediate) — HackerRank',
+      'Intermediate Python — DataCamp',
+      'Power BI Data Analyst Learning Path — Microsoft Learn',
+      'Data Analytics with Generative AI — Texas Tech University × ExcellenC',
+      'Data Analyst Skill Certification — OneRoadmap',
+      'Deloitte Data Analytics Job Simulation — Forage',
     ],
   },
   {
-    group: 'Internship Certificates',
+    group: 'Core Stack',
     badge: '02',
     items: [
-      'Retail Chain Profit Leakage & Demand Optimization — Intellectra AI Solutions (Jun 2026)',
-      'End-to-End Retail Performance & Behavioral Analytics — Analytics Space (May 2026)',
-    ],
-  },
-  {
-    group: 'Microsoft Office',
-    badge: '03',
-    items: [
-      'MS Office Automation MasterClass: Word, Excel & PowerPoint — Udemy (Jul 2026)',
-      'Microsoft Office Complete Course — All-in-One MS Office — Udemy (Jul 2026)',
-    ],
-  },
-  {
-    group: 'Generative AI',
-    badge: '04',
-    items: [
-      'Claude 101 — Anthropic (2026)',
-      'AI Tools & ChatGPT Workshop — be10x (May 2026)',
-      'What Is Generative AI? — LinkedIn Learning (Jun 2026)',
+      'SQL — SQL Server, MySQL, T-SQL',
+      'Power BI — DAX, Power Query, Data Modeling',
+      'Python — Pandas, NumPy, Jupyter',
+      'Tableau & Advanced Excel',
     ],
   },
 ]
