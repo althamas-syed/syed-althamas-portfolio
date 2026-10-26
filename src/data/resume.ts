@@ -11,9 +11,9 @@ export const PROFILE = {
   website: 'https://syedalthamas.me',
   resumePdf: '/syed-althamas-resume.pdf',
   summary: [
-    'Data Analyst with 1 year of hands-on experience in SQL, Python and Power BI — from cleaning and validating 182,081 records across seven retail datasets to shipping five-page Power BI dashboards that put revenue, margin and return-rate KPIs on one screen.',
+    'Fresher Data Analyst with an MBA in Finance. Hands-on internship experience in SQL reporting, Python data validation and Power BI dashboards, with strengths in data cleaning, reconciliation and MIS reporting.',
     'An MBA in Finance (8.11 CGPA) with a B.Com in Computer Applications. Cut manual MIS reporting time by 30% through SQL and Power BI automation, reconciled 16/16 analytical metrics between Python and SQL, and quantified ₹13.94 lakh in approved, matched refunds.',
-    'Open to Data Analyst roles in Hyderabad, Bengaluru and pan-India — available within 15 days.',
+    'Trained in Data Analytics with Generative AI at ExcellenC, Hyderabad (Oct 2025 – Sep 2026, in person — eight months of classes, then projects, resume building and mock interviews). Open to Data Analyst, BI and Finance Analyst roles in Hyderabad, Bengaluru and pan-India.',
   ],
   languages: ['English (Professional)', 'Telugu (Native)', 'Hindi (Fluent)'],
 }
@@ -65,11 +65,11 @@ export const EXPERIENCE = [
   {
     role: 'Data Analyst Intern',
     org: 'Analytics Space LLP, Hyderabad (Remote)',
-    period: 'Oct 2025 – Sep 2026',
+    period: 'Apr 2026 – May 2026',
     points: [
-      'Automated retail performance reporting using SQL queries and Power BI dashboards, reducing manual MIS reporting time by 30%.',
-      'Completed 20+ SQL analyses covering revenue trends, customer behavior and cohort retention to surface trends and insights.',
-      'Developed RFM reports segmenting customers into Champions, Loyal and At-Risk groups.',
+      'Completed an end-to-end retail performance and customer behavior analytics project, from raw data to reporting.',
+      'Wrote SQL analyses covering revenue trends, customer behavior and cohort retention for retail datasets.',
+      'Built Power BI dashboards and RFM reports segmenting customers into Champions, Loyal and At-Risk groups.',
     ],
   },
   {
@@ -77,8 +77,9 @@ export const EXPERIENCE = [
     org: 'Intellectra AI Solutions Pvt. Ltd. (Remote)',
     period: 'May 2026',
     points: [
-      'Developed Python (Pandas) and SQL data-cleaning and validation workflows for multi-table retail datasets, checking duplicate keys, inconsistent identifiers, unmatched product records and date anomalies.',
-      'Reconciled 16/16 analytical metrics between Python and SQL and documented data-quality exceptions to improve KPI reporting reliability.',
+      'Completed a retail profit-leakage and demand-optimization project.',
+      'Developed Python (Pandas) and SQL data-cleaning and validation workflows across multi-table datasets, checking duplicate keys, inconsistent identifiers, unmatched product records and date anomalies.',
+      'Reconciled analytical metrics between Python and SQL and documented data-quality exceptions for KPI reporting.',
     ],
   },
 ]
@@ -147,7 +148,7 @@ export const PROJECTS = [
 export const EDU = [
   {
     degree: 'MBA — Finance · CGPA 8.11',
-    school: 'Santhiram Engineering College, Nandyal',
+    school: 'Santhiram Engineering College, Nandyal (JNTU Anantapur)',
     period: '2023 – 2025',
   },
   {
@@ -164,8 +165,7 @@ export const CERTS = [
     items: [
       'SQL (Intermediate) — HackerRank',
       'Intermediate Python — DataCamp',
-      'Power BI Data Analyst Learning Path — Microsoft Learn',
-      'Data Analytics with Generative AI — Texas Tech University × ExcellenC',
+      'Data Analytics with Generative AI — ExcellenC (Eight-month training program)',
       'Data Analyst Skill Certification — OneRoadmap',
       'Deloitte Data Analytics Job Simulation — Forage',
     ],
